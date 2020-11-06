@@ -1,0 +1,194 @@
+.awal {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    /* Background */
+
+    background-color: rgb(13, 185, 134);
+    height: max-content;
+}
+
+/* Content Awal */
+
+.awal .content {
+    padding: 35px;
+    overflow: hidden;
+}
+
+/* Font Awal */
+
+.awal .content p {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.awal .content h1 {
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+}
+
+/* Navbar Sticky */
+
+
+header {
+	position: sticky !important;
+	top:0 !important;
+	position:relative;
+	height: auto;
+	width:100%;
+	background:#fff;
+	overflow-x:hidden;
+	display:flex;
+	align-items:center;
+    margin:auto;
+}
+
+header .head {
+    
+    margin-left:5%;
+    float:left;
+    font-size:22px;
+    font-family:sans-serif;
+    color:#017fb5;
+    font-weight: 600;
+    cursor:pointer;
+
+}
+
+header .head:hover{
+	color:#aaa;
+}
+
+header ul {
+   
+     height:auto;
+     width:60%;
+     margin-left:40%;
+}
+
+
+header ul li {
+	display:inline-block;
+	list-style-type: none;
+	padding:10px;
+	margin: auto;
+}
+
+
+header ul a {
+	display:block;
+	text-decoration: none;
+	color:#444;
+	font-family:sans-serif;
+	font-weight:600;
+	font-size:15px;
+	margin: auto;
+}
+
+header ul a:hover{
+	color: blue;
+	text-decoration: none;
+
+
+}
+
+/* End Navbar Sticky */
+
+/* About */
+
+.about {
+	height:100%;
+	width:100%;
+	background:#666;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	/*padding:20px;*/
+	margin:auto;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 800;
+	letter-spacing:0.2m;
+	height:auto;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+
+.about p{
+	font-size: 24px;
+	font-weight:500;
+	letter-spacing:0.2m;
+ 	width:80%;
+	height:auto;
+	margin:auto auto;
+	font-family:sans-serif;
+}
+
+/* Tools */
+
+.tools {
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    width: 100%;
+    align-items: center;
+	background-color: whitesmoke;
+}
+/* 
+@keyframes thisisanim {
+	0% {
+		background-color: #70cef7;
+	}
+	25% {
+		background-color: rgb(255, 145, 145);
+	}
+	50% {
+		background-color: rgb(119, 255, 192);
+	}
+	75% {
+		background-color: rgb(155, 255, 130);
+	}
+	100% {
+		background-color: #3ae2f8;
+	}
+} */
+
+.tools h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.tools ul {
+    height: auto;
+    width: 60%;
+    margin-left: 16.5%;
+}
+
+.tools ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    margin: auto;
+}
+
+.tools ul a {
+	display:block;
+	text-decoration: none;
+	color: #017fb5;
+	font-family:sans-serif;
+	font-weight:600;
+    font-size:40px;
+	margin: auto;
+}
+
+
+.tools ul a:hover {
+    color: grey;
+    cursor: pointer;
+}
